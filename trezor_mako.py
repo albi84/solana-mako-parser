@@ -1,5 +1,6 @@
 from mako.template import Template
 from json import load
+from os import mkdir
 
 with open("programs.json", "r") as file:
     programs = load(file)
